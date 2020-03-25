@@ -96,7 +96,7 @@ footer nav a:hover{
     border-radius: 50%;
 }
 .gallery{
-    width: 50%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
