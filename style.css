@@ -246,6 +246,11 @@ textarea{
     background-color: #fbfbfb;
     transition: .3s ease;
 }
+.forma{
+    text-align: center;
+    margin-left: 1px;
+    width: 96%;
+}
 
 
 
