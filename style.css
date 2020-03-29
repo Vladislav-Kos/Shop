@@ -251,7 +251,36 @@ textarea{
     margin-left: 1px;
     width: 96%;
 }
+.about-container{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
 
+
+}
+.about-container img{
+    max-width: 100%;
+}
+.about-container p{
+    margin-top: 50px;
+}
+.about-container h1{
+    margin-top: 40px;
+}
+.services{
+  width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+.services img{
+    max-width: 100%;
+}
+.services_container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px 100px;
+}
 
 
 @media screen and (max-width: 768px){
@@ -308,5 +337,9 @@ justify-content: center;
         width: 70%;
         margin: 0 auto;
     }
+    .services_container{
+    grid-template-columns: auto;
+
+}
 }
 
